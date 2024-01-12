@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+:root {
+    --color-body: #a2a2a2;
+    --color-heading: #000000;
+    --color-base: #646464;
+    --color-base2: #ffffff;
+    --color-brand: #ff0101;
+    --color-brand2: #ff8401;
+    --color-brand3 : #ffffff;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+body {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--font-base), sans-serif;
+}
+
+h1, h4{
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    color: var(--color-brand3);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
+
+/* CARD */
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+
+.bg-base{
+    background-color: var(--color-base);
+}
+
+.text-color{
+    color: var(--color-heading);
+}
+
+h6, p{
+    color: var(--color-base2);
+    font-weight: 500;
+}
+
+.bg-subbase{
+    background-color: var(--color-brand);
+}
+
+.bg-colbase{
+    background-color: var( c);
+}
+
+
